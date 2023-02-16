@@ -348,6 +348,8 @@ public class ThermometerBluetoothUtil {
         bluetoothUtil.connectAutomaticBluetooth(BluetoothType.THERMOMETER);
     }
 
+
+
     /**
      * 蓝牙已连接的设备名称
      */
