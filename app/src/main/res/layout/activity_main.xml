@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp">
+
+    <EditText
+        android:id="@+id/start_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="请输入要连接设备的蓝牙名称" />
+
+    <Button
+        android:id="@+id/start_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="体温计/耳温枪/额温枪" />
+
+    <Button
+        android:id="@+id/start_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排卵助手" />
+
+    <Button
+        android:id="@+id/start_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="血氧" />
+
+    <Button
+        android:id="@+id/start_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="婴儿贴" />
+
+    <Button
+        android:id="@+id/start_button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="血糖" />
+
+    <Button
+        android:id="@+id/start_button_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="血压" />
+
+    <Button
+        android:id="@+id/start_button_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="心电" />
+
+    <Button
+        android:id="@+id/start_button_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="血红蛋白" />
+
+    <Button
+        android:id="@+id/start_button_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="血脂" />
+
+</LinearLayout>

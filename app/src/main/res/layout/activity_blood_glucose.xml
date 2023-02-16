@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/is_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/blood_glucose_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检测蓝牙是否打开" />
+
+        <Button
+            android:id="@+id/blood_glucose_button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开蓝牙" />
+
+        <Button
+            android:id="@+id/blood_glucose_button_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭蓝牙" />
+
+        <Button
+            android:id="@+id/blood_glucose_button_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描蓝牙设备" />
+        <Button
+            android:id="@+id/blood_glucose_button_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间同步" />
+
+        <TextView
+            android:id="@+id/blood_glucose_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/blood_glucose_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/blood_glucose_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/blood_glucose_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/blood_glucose_text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.cj.bluetoothproject.MyListView
+            android:id="@+id/blood_glucose_listView_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/blood_glucose_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</ScrollView>

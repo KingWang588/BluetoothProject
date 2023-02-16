@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/is_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/baby_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检测蓝牙是否打开" />
+
+        <Button
+            android:id="@+id/baby_button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开蓝牙" />
+
+        <Button
+            android:id="@+id/baby_button_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭蓝牙" />
+
+        <Button
+            android:id="@+id/baby_button_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描蓝牙设备" />
+
+        <Button
+            android:id="@+id/baby_button_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="实时监控模式" />
+
+        <Button
+            android:id="@+id/baby_button_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="非实时监控模式" />
+
+        <Button
+            android:id="@+id/baby_button_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="防踢被提醒"/>
+
+        <Button
+            android:id="@+id/baby_button_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On/Off键锁死"/>
+
+        <Button
+            android:id="@+id/baby_button_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On/Off键解锁"/>
+
+        <Button
+            android:id="@+id/baby_button_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更新測量模式和On/Off键解锁"/>
+
+        <TextView
+            android:id="@+id/baby_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.cj.bluetoothproject.MyListView
+            android:id="@+id/baby_listView_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/baby_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</ScrollView>
